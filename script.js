@@ -36,21 +36,21 @@ async function fetchWeather(apiURL) {
       </div>
       <div class="measure">
         <div class="hum">
-          <img src="C:/weather/humidity_727891.png" alt="Humidity icon">
+          <img src="images.jpg/image2.jpg.png" alt="Humidity icon">
           <h3>Humidity: ${data.main.humidity} %</h3>
         </div>
         <div class="wind">
-          <img src="C:/weather/nature_15925757.png" alt="Wind icon">
+          <img src="images.jpg/image3.jpg.png" alt="Wind icon">
           <h3>Wind Speed: ${data.wind.speed} m/s </h3>
         </div>
       </div>
       <div class="sun">
         <div class="sunrise">
-          <img src="C:/weather/icons8-sunrise-48.png" alt="Sunrise icon">
+          <img src="images.jpg/image4.jpg.png" alt="Sunrise icon">
           <h3>Sunrise: ${sunrise.toLocaleTimeString()}</h3>
         </div>
         <div class="sunset">
-          <img src="C:/weather/icons8-sunset-50.png" alt="Sunset icon">
+          <img src="images.jpg/image5.jpg.png" alt="Sunset icon">
           <h3>Sunset: ${sunset.toLocaleTimeString()}</h3>
         </div>
       </div>`;
